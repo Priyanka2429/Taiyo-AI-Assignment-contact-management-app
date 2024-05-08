@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = (props) => {
         </div>
         <div className="px-6 pt-4 pb-2 flex flex-col gap-3 justify-center items-center">
           <button
-            className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-cyan-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
             onClick={() => navigate(`/edit-contact/${props?.contact?.id}`)}
           >
             Edit
